@@ -273,7 +273,7 @@ body{
   background-color: black;
 }
 
-/* настройка шапки*/
+/* head*/
 
 #header1{
   background-color: black;
@@ -331,7 +331,7 @@ body{
   color: white;
 }
 
-@media only screen and (max-width: 1100px){ /* настройка header*/
+@media only screen and (max-width: 1100px){
   #header1 br{
     display: block;
   }
@@ -352,7 +352,7 @@ body{
   }
 }
 
-/* настройка бутерброда*/
+/* wrap*/
 
 
 .wrap{
@@ -391,7 +391,7 @@ body{
 
 
 
-.nav > li > a:hover, .nav > li > a:focus {/* изменение цвета при наведении на ссылку !!!!!*/
+.nav > li > a:hover, .nav > li > a:focus {
   background-color: #1F1F1F;
   text-decoration: none;
   color: white
@@ -423,9 +423,9 @@ body{
 #search{
   margin-right: 80px;
 }
-/* настройка поиска*/
 
-/* настройка 1 блока*/
+
+/* 1 blok*/
 #rectangle-men{
   background:url("../img/Rectangle.png") no-repeat center center ;
   background-size: cover;
@@ -493,7 +493,7 @@ body{
 }
 
 
-/* настройка 2 блока (1)*/
+/*  2 blok (1)*/
 .frame{
   background-color: #222222;
   width: 100%;
@@ -536,13 +536,6 @@ body{
   margin-top: 30px;
 }
 
-/* сокращает текст
-
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow:hidden;
-
-*/
 
 
 .price{
@@ -586,7 +579,7 @@ body{
   }
 }
 
-/* настройка 2 блока (2)*/
+/* 2 blok (2)*/
 
 .image-fon{
   background:url("../img/square-men.png") no-repeat;
@@ -657,7 +650,7 @@ body{
 }
 
 
-/* настройка 3-4 блока*/
+/*  3-4 blok */
 .image-fon2{
   background:url("../img/square-men2.png") no-repeat top center;
   background-size: cover;
@@ -721,7 +714,7 @@ body{
 }
 
 
-/* настройка "NEW ARRIVALS"*/
+/* "NEW ARRIVALS"*/
 .arrival-text-head{
   font-family: Playfair Display, serif;
   font-style: normal;
